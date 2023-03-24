@@ -12,7 +12,12 @@ Choosing the wrong option will refresh the page and restart the game.
 Inspired by Gameboy Harvest Moon: Friends of Mineral Town 
 This was part of a game from my childhood.
 
+Program generated using HTML, CSS, and JavaScript.
+
+How to access use this link: https://jnttt.github.io/
+
 Code Snippet
+
 function high() {
   if (numArr[1] >= numArr[0] === true) {
     numArr.shift();
