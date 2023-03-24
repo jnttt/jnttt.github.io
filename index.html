@@ -9,17 +9,24 @@
     <script defer src="script.js"></script>
 </head>
 <body>
-    <h1>High or Low</h1>
-    <div class="hide" id="difficulty">
+    <div id="game">
+    <h1 id="h1">High or Low</h1>
+    <p>Guess whether the next number (between 0-9) will be higher or lower...</p>
+    <p id="hide">Pick a difficulty.</p>
+    <div id="difficulty">
         <button onclick="easy()">Easy</button>
         <button onclick="med()">Medium</button>
         <button onclick="hard()">Hard</button>
     </div> 
+    <br>
     <button onclick="high()">Higher</button>
     <button onclick="low()">Lower</button>
     <div id="number">
     </div>
     <div id="score">
     </div>
+    <br>
+    <button onclick="restart()">Restart</button>
+</div>
 </body>
 </html>

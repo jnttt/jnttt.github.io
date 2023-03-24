@@ -1,0 +1,15 @@
+body {
+    background-image: url("graynumbers.jpg");
+  }
+#game{
+    background-color: white;
+    height : 400px;
+    width: 300px;
+    padding: 20px;
+}
+#score {
+    font-size: 40px;
+}
+#number {
+    font-size: 100px;
+}
